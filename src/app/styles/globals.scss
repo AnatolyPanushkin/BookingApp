@@ -1,0 +1,61 @@
+:root {
+	--accent-color: rgb(226, 211, 211);
+	--accent-light-color: rgba(0, 0, 0, 0.9);
+	--accent-color-secondary: rgba(255, 255, 255, 0.75);
+	--black-color: rgb(255, 255, 255);
+	--text-secondary: rgb(255, 255, 255);
+	--text-outline: rgb(207 216 220);
+	--text-form: rgb(0, 0, 0);
+	--white-color: rgb(0, 0, 0);
+	--custom-red: rgb(143, 24, 24);
+	--custom-lilac: rgba(100, 58, 185, 0.9);
+	--custom-gray: rgb(108, 100, 110);
+	--background-light: rgb(255, 255, 255);
+
+	--elevation-01: 0 0.5px 2px 0 rgb(96 97 112 / 24%),
+		0 0 1px 0 rgb(255, 255, 255);
+	--elevation-02: 0 2px 16px 0 rgb(96 97 112 / 16%),
+		0 0 1px 0 rgb(255, 255, 255);
+	--elevation-03: 0 -4px 8px 0 rgb(96 97 112 / 16%),
+		0 0 2px 0 rgb(255, 255, 255);
+	--elevation-04: 0 8px 16px 0 rgb(96 97 112 / 16%),
+		0 2px 4px 0 rgb(255, 251, 251);
+	--elevation-05: 0 16px 24px 0 rgb(96 97 112 / 16%),
+		0 2px 8px 0 rgb(0, 0, 0);
+	--elevation-06: 0 20px 32px 0 rgb(96 97 112 / 24%),
+		0 2px 8px 0 rgb(0, 0, 0);
+
+	--background: #000000;
+	--foreground: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #000000;
+		--foreground: #000000;
+	}
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+@media (prefers-color-scheme: light) {
+	html {
+		color-scheme: light;
+	}
+}
